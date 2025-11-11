@@ -10,10 +10,9 @@ else:
     print("Input not provided, using default temprature")
 
 
-
-
 print("Script Name:",script_name)
 print("Temprature:",temprature)
+
 
 temp=int(temprature)
 if(temp<15):
@@ -22,7 +21,4 @@ elif(temp>=15 and temp<=25):
     condition="Normal"
 else:
     condition="Hot"
-
-
-
 print("Condition:",condition)   
