@@ -12,6 +12,8 @@ else:
 
 
 
+print("Script Name:",script_name)
+print("Temprature:",temprature)
 
 temp=int(temprature)
 if(temp<15):
@@ -22,6 +24,5 @@ else:
     condition="Hot"
 
 
-print("Script Name:",script_name)
-print("Temprature:",temprature)
+
 print("Condition:",condition)   
