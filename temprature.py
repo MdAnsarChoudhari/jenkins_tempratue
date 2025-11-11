@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv)==2:
+if len(sys.argv)==1:
     script_name=sys.argv[0]
     temprature=sys.argv[1]
 
@@ -8,6 +8,9 @@ else:
     script_name=sys.argv[0]
     temprature=25
     print("Input not provided, using default temprature")
+
+
+
 
 
 temp=int(temprature)
