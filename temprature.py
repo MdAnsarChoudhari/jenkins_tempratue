@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv)==1:
+if len(sys.argv)==2:
     script_name=sys.argv[0]
     temprature=sys.argv[1]
 
